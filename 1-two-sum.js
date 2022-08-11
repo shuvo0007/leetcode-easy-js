@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
 
 function twoSum(numbers, target) {
   for (let i = 0; i < numbers.length; i++) {
@@ -14,4 +9,4 @@ function twoSum(numbers, target) {
   }
 }
 
-console.log(twoSum([1, 2, 3, 5, 5], 7));
+console.log(twoSum([1, 2, 3, 5], 7));
